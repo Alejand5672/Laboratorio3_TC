@@ -1,8 +1,4 @@
-"""Conversor de expresiones regulares infijas a postfijas.
-
-Implementa el algoritmo Shunting Yard, inserta la concatenacion explicita y
-elimina las extensiones + y ? antes de producir el resultado final.
-"""
+"""Conversor de expresiones regulares infijas a postfijas."""
 
 from __future__ import annotations
 
