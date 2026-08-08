@@ -1,0 +1,35 @@
+// Expresión 3: (a|b)*abb(a|b)*
+digraph {
+	bgcolor=white fontname=Arial fontsize=18 label="Expresión 3: (a|b)*abb(a|b)*" labelloc=t nodesep=0.55 rankdir=TB ranksep=0.80 splines=line
+	node [color="#1d4ed8" fillcolor="#dbeafe" fixedsize=true fontname=Arial fontsize=16 height=0.60 shape=circle style=filled width=0.60]
+	edge [color="#475569" penwidth=1.6]
+	n0 [label="·"]
+	n1 [label="·"]
+	n2 [label="·"]
+	n3 [label="·"]
+	n4 [label="*"]
+	n5 [label="|"]
+	n6 [label=a]
+	n5 -> n6
+	n7 [label=b]
+	n5 -> n7
+	n4 -> n5
+	n3 -> n4
+	n8 [label=a]
+	n3 -> n8
+	n2 -> n3
+	n9 [label=b]
+	n2 -> n9
+	n1 -> n2
+	n10 [label=b]
+	n1 -> n10
+	n0 -> n1
+	n11 [label="*"]
+	n12 [label="|"]
+	n13 [label=a]
+	n12 -> n13
+	n14 [label=b]
+	n12 -> n14
+	n11 -> n12
+	n0 -> n11
+}
